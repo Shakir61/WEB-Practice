@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: auto;
+    width: 80vw;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+}
+
+main hr{
+    margin: 4rem 0;
+    width: 80%;
+    border: 2.5px solid black;
+}
+
+main #role, #skills, #education, #experience, #links{
+    color: rgb(108, 177, 3);
+    font-weight: 500;
+}
+
+main .degree-name, .institute-name, .company-name{
+    font-weight: 600;
+    color: rgb(21, 147, 197);
+    font-size: 1.2rem;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
